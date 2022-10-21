@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- NORMALIZE-->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Ristorante | Bar Oasi Della Pasta</title>
+    <!--ANIMSITION-->
+    <link rel="stylesheet" type="text/CSS" href="JS/animsition-master/dist/css/animsition.min.css">
+    <!-- CSS MIEI-->
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/media.css">
+    
+  </head>
+  <body>
+
+
+    <section class="main-header">
+      <nav class="navbar navbar-expand" style="z-index: 10000;">
+        <a href="index.html"><img class=logo src="immagini/logo.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+     
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item" id="nav-item">
+              <a class="nav-link" id="prenota" href="#contatta">Prenota</a>
+            </li>
+    
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Prodotti
+              </a>
+    
+              <div class="dropdown-menu" id="drop" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">esempio</a>
+                <a class="dropdown-item" href="#">Vini</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#gallery">Prodotti esposti</a>
+              </div>
+            </li>
+
+            <li class="nav-item" id="nav-item">
+              <a class="nav-link" id="about-nav" href="#about">About</a>
+            </li>
+
+          </ul>
+        </div>
+       
+
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <!--<ol class="carousel-indicators" style="position: fixed;">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+      -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(immagini/sala-back.jpg); z-index: -100; background-attachment: fixed;">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(immagini/paste-back.jpg); z-index: -100; background-attachment: fixed;">
+            <div class="carousel-caption">
+           </div>
+          </div>
+          <div class="container">
+            <div class="h1-box">
+              <h1 style="text-align: center; z-index: 100;" >Oasi della pasta!</h1>
+              <h2 style="text-align: center; z-index: 100;">Assaggia le nostre specialità</h2>
+            </div>
+          </div>
+        </div>
+
+        <!--<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      -->
+      </div>
+    </section>
+   
+
+
+
+
+      <section class="galleria">
+        <div class="gallery" id="gallery">
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top"  id="img" style="z-index: 200;" src="immagini/tagliata1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Tagliata con grana, rucola e pachini</h5>
+                <p class="card-text">Tagliata di vitello paesano con grana, rucola e pachini freschi a km 0.</p>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top"  src="immagini/tagliata2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Tagliata con grana, rucola e pachini</h5>
+                <p class="card-text">Tagliata di vitello paesano con grana, rucola e pachini freschi a km 0.</p>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top" id="img"  src="immagini/gnocchi.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Gnocchi con crema di zucchine, burrata, guanciale e grana.</h5>
+                <p class="card-text">Gnocchi all'uovo freschissimi, km. 0 fatti al forno della proprietaria.</p>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top"  src="immagini/pasta-dolce.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Pasta fresca ripiena con panna e cioccolato</h5>
+                <p class="card-text">Pastarelle caserecce fresche, fatte e ripiene a mano dalla proprietaria</p>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <a><img class="card-img-top" src="immagini/dolce2.jpg" alt="Card image cap"></a>
+              <div class="card-body">
+                <h5 class="card-title">Dolce non so che è con cioccolato</h5>
+                <p class="card-text">cioccolato</p>
+              </div>
+          </div>
+      </div>
+      </section>
+
+        <section class="about-section">
+          <div class="container" id="about">
+            <div class="titolo">
+            <p></p>
+            </div>
+          </div>
+        </section>
+
+
+
+
+      <footer class="text-center text-sm-start bg-light text-muted">
+          <!-- Section: Social media -->
+          <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Right -->
+            <div>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <!-- Right -->
+          </section>
+          <!-- Section: Social media -->
+        
+          <!-- Section: Links  -->
+          <section class="" id="contact">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3"></i>Nome Del Luogo
+                  </h6>
+                  <p>
+                    OASI DELLA PASTA: I dolci, paste e tutto ciò che ci trova in locale, è tutto fresco e fatto a mano.
+                  </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Prodotti
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Paste </a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Dolci</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Pasta fresca</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Carne</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+        
+              
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" id="contatta">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Contattaci</h6>
+                  <a href="https://www.google.it/maps/dir//L'+oasi+della+Pasta,+Via+Muzio+Febonio,+23,+67059+Trasacco+AQ/@41.9585125,13.5366995,18.49z/data=!4m16!1m6!3m5!1s0x132fe34e22f8a765:0xeb0a91a607c0a6bd!2sL'+oasi+della+Pasta!8m2!3d41.958204!4d13.5371458!4m8!1m0!1m5!1m1!1s0x132fe34e22f8a765:0xeb0a91a607c0a6bd!2m2!1d13.5371458!2d41.958204!3e3" target="_blank"><p><i class="fas fa-home me-3"></i> Trasacco, AQ , 67059, IT</p></a>
+                  <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    
+                  </p>
+                  <p><i class="fas fa-phone me-3"></i> +39 380 196 6645 </p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+      </footer>
+
+
+    <!-- JS BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <!-- STICKY NAV-->
+    <script src="js/sticky/jquery.sticky.js"></script>
+    <!--ANIMSITION JS-->
+    <script src="js/animsition-master/dist/js/animsition.min.js"></script>
+    <!--SCRIPT JS MIO-->
+    <script src="js/script.js"></script>
+    <script src="js/sticky/js.js"></script>
+  </body>
+</html>
