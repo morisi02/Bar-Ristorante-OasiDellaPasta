@@ -1,4 +1,56 @@
+@media only screen and (max-width:500px){
+  /**********************************
+       NAVBAR
+*********************************/
+
+    .navbar{
+        height: 90px;
+    }
+
+    .carousel{
+        margin-top: -90px;
+    }
 
 
+    .h1-box h1{
+        font-size: 2rem;
+    }
+
+    .h1-box h2{
+      font-size: 1.5rem;
+    }
+    
+ /**********************************
+          GALLERY / CARD
+*********************************/
+
+    .gallery{
+     display: flex;
+     flex-wrap: wrap;
+    }
+
+    .card{
+        width: 9rem;
+        height: 350px;
+        
+    }
+
+    .card img{
+        height: 150px;
+    }
+
+    .card h5{
+        font-size: 15px;
+    }
+
+    .card p{
+        font-size: 10px;
+    }
+
+     /**********************************
+     
+*********************************/
+
+}
 
 

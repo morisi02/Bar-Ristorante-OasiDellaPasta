@@ -105,8 +105,8 @@ a {
   transition: 0.3s;
   margin: 20px auto;
   z-index: 0000;
+  width: 18rem;
 }
-
 
 .card img{
   height: 300px;
