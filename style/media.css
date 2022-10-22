@@ -8,9 +8,17 @@
     }
 
     .carousel{
-        margin-top: -90px;
+        margin-top:-90px;
+        
     }
 
+    .carousel-item{
+        height: 400px;
+    }
+
+    .h1-box{
+        transform: translateY(-90px);
+    }
 
     .h1-box h1{
         font-size: 2rem;
@@ -19,10 +27,17 @@
     .h1-box h2{
       font-size: 1.5rem;
     }
+
+
+
     
  /**********************************
           GALLERY / CARD
 *********************************/
+    
+     .galleria{
+        
+     }
 
     .gallery{
      display: flex;
