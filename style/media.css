@@ -17,7 +17,7 @@
     }
 
     .h1-box{
-        transform: translateY(-90px);
+        transform: translateY(-95px);
     }
 
     .h1-box h1{
@@ -36,7 +36,7 @@
 *********************************/
     
      .galleria{
-        
+        margin-top: -60px;
      }
 
     .gallery{
